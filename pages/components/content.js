@@ -1,8 +1,6 @@
 export default function Content()
 {
   return (
-    <>
-        <p>works</p>
-    </>
+    <p>works</p>
   )
 }
