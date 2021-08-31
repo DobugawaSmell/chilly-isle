@@ -1,8 +1,29 @@
+import Head from 'next/head'
+
 import Style from '../styles/Home.module.css'
+import Menu from './components/menu.js'
+import Top from './components/top.js'
+import Works from './components/work.js'
 
 export default function Home()
 {
   return (
-    <h1 className={Style.title}>chilly isle</h1>
+    <>
+      <Head>
+        <title>chilly isle</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter"
+            rel="stylesheet"
+          />
+      </Head>
+      <div className={Style.bodyWrap}>
+        <Menu />
+        <Top />
+        <Works />
+        <Works />
+        <Works />
+        <Works />
+      </div>
+    </>
   )
 }

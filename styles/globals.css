@@ -1,16 +1,29 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0px;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+h2 {
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    transform: scale(1,1.4);
+    margin-left: 16.5vw;
+    color: #0004FF;
+}
+
+@media screen and (max-width: 600px){
+    h2 {
+        width: auto;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 25px;
+        transform: scale(1,1.4);
+        margin-left: 20vw;
+        color: #0004FF;
+    }
 }

@@ -1,0 +1,59 @@
+.menuWrap {
+    position: fixed;
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    left: 26px;
+    transform-origin: center top;
+    background-color: #DAE4E7;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.menuWrap a {
+    font-weight: 600;
+    color: #DAE4E7;
+    padding-top: 40px;
+    text-shadow:  1px  0 0 #0004FF,
+    0  1px 0 #0004FF,
+    -1px 0 0 #0004FF,
+    0 -1px 0 #0004FF; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 10px 15px;
+}
+
+.margin {
+    height: 4vh;
+}
+
+@media screen and (max-width: 600px){
+    .menuWrap {
+        position: fixed;
+        align-items: center;
+        width: 100vw;
+        height: 7vh;
+        display: flex;
+        bottom: 0px;
+        left: 0px;
+        overflow-x: scroll;
+    }
+
+    .menuWrap a {
+        font-weight: 600;
+        color: #DAE4E7;
+        padding-top: 40px;
+        text-shadow:  1px  0 0 #0004FF,
+        0  1px 0 #0004FF,
+        -1px 0 0 #0004FF,
+        0 -1px 0 #0004FF; 
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5vw;
+        padding: 10px 15px;
+    }
+
+    .margin {
+        width: 100%;
+    }
+}
