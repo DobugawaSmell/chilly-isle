@@ -8,8 +8,7 @@ export default function Top() {
     return(
         <>
             <div className={Style.topWrap}>
-                <Title />
-                <img className={Style.tobirae} src={Tobirae.src}/>
+                <div className={Style.tobirae}>Portforio</div>
             </div>
             <h2>Works</h2>
         </>

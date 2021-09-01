@@ -1,14 +1,13 @@
 .titleWrap {
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
     width: 20vw;
 }
 
 .title {
     align-self: center;
     width: 10vw;
-    margin: 10px auto 0px 38px;
-    justify-content: fit;
 }
 
 .title img {
@@ -19,22 +18,33 @@
     object-fit:scale-down;
 }
 
-.icon {
-    align-self: center;
-    margin: 18px 50% 0px 50%;
-}
+    .pc { display: block !important;}
+    .sp { display: none !important;}
 
 @media screen and (max-width: 600px) {
     .titleWrap {
         position: relative;
         top: 0px;
-        width: 20vw;
+        left: 0px;
+        width: 80vw;
+        margin: 40px auto 0px auto;
     }
 
     .title {
         align-self: center;
-        width: 8vw;
-        margin: 5px auto 0px 4vw;
+        width: 25vw;
         justify-content: fit;
+        margin: 0px 25vw 0px 25vw;
     }
+
+    .title img {
+        width:100%;
+        height:auto;
+        max-width:100%;
+        max-height:100%;
+        object-fit:fill;
+    }
+
+    .pc { display: none !important;}
+    .sp { display: block !important;}
 }

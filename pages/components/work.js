@@ -10,7 +10,7 @@ export default function Works(){
             <div className={Style.textWrap}>
                 <div className={Style.works_h1}>Test_h1</div>
                 <div className={Style.works_tag}>1/2/3/4</div>
-                <a href={link} ><div className={Style.arrow}>→</div></a>
+                <div className={Style.arrowWrap}><a href={link} ><div className={Style.arrow}>→</div></a></div>
             </div>
         </div>
     )
