@@ -23,9 +23,7 @@ export default function Home({index})
         <Menu />
         <Top />
         {index.map((index) =>  (
-          <li key={index.id}>
-          <Works image={index.thumbnail} title={index.title} tag={index.tag}/>
-          </li>
+          <Works key={index.id} image={index.thumbnail} title={index.title} tag={index.tag}/>
         ))}
       </div>
     </>

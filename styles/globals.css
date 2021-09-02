@@ -17,7 +17,7 @@ h2 {
 }
 
 li {
-    display: hidden;
+    color: #00000000;
 }
 
 @media screen and (max-width: 600px){
