@@ -10,6 +10,7 @@
     width: 520px;
     height: 350px;
     background-color: #0004FF;
+    object-fit: cover;
 }
 
 .textWrap {
@@ -71,13 +72,13 @@
     }
 
     .textWrap {
-        width: 95%;
-        margin: 30px 0% 0px 5%;
+        width: 100%;
+        margin: 10px 0% 0px 0%;
     }
 
     .works_h1 {
         font-family: 'Montserrat' ,sans-serif;
-        font-size: 60px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 400;
         color: #0004FF;
@@ -85,9 +86,11 @@
     
     .works_tag {
         font-family: 'Montserrat' ,sans-serif;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         color: #0004FF;
+        width: auto;
+        height: auto;
     }
 
     .arrowWrap {
