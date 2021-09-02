@@ -9,8 +9,6 @@ import Works from './components/work.js'
 
 export default function Home({index})
 {
-  console.log(index.thumbnail.url);
-  
   return (
     <>
       <Head>
@@ -25,7 +23,7 @@ export default function Home({index})
         <Menu />
         <Top />
         {index.map((index) =>  (
-          <Works key={index.id} image={index.thumbnail} title={index.title} tag={index.tag}/>
+          <Works key={index.id} imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
         ))}
       </div>
     </>
