@@ -9,6 +9,8 @@ import Works from './components/work.js'
 
 export default function Home({index})
 {
+  console.log(index.thumbnail);
+  
   return (
     <>
       <Head>

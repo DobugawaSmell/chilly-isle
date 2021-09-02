@@ -5,7 +5,6 @@ import TestImage from '../img/topimage.png'
 let link = '###'
 
 export default function Works(props){
-    console.log(props.image);
     return(
         <a href={link}>
         <div className={Style.worksWrap}>
