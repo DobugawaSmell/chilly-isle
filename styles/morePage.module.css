@@ -1,0 +1,84 @@
+.contentWrap {
+    margin: 40px 50px 20px 16.5vw;
+}
+
+.title {
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    color: #0004FF;
+}
+
+.informationWrap {
+    width: 50vw;
+    max-width: 656px;
+    margin: 130px auto 0px auto;
+}
+
+.year {
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.catch {
+    margin: 5px auto 0px auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.textWrap {
+    margin: 26px auto 0px auto;
+    display: flex;
+}
+
+.tool {
+    width: 230px;
+    margin-right: 50px;
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+} 
+
+.designWrap {
+    display: flex;
+}
+
+.codingWrap {
+    display: flex;
+}
+
+.text {
+    width: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .contentWrap {
+        width: 80vw;
+        margin: 40px auto 20px auto;
+    }
+
+    .informationWrap {
+        width: 80vw;
+        max-width: none;
+        margin: 230px auto 0px auto;
+    }
+
+    .textWrap {
+        margin: 26px auto 0px auto;
+        display: block;
+    }
+
+    .text {
+        width: auto;
+        margin-top: 120px;
+        margin-right: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+    }
+}

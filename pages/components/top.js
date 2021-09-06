@@ -1,9 +1,5 @@
 import Style from '../../styles/top.module.css'
 
-import Tobirae from '../img/topimage.png'
-
-import Title from './title.js'
-
 export default function Top() {
     return(
         <>

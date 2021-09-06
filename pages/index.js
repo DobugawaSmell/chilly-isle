@@ -6,6 +6,7 @@ import Menu from './components/menu.js'
 import Title from './components/title'
 import Top from './components/top.js'
 import Works from './components/work.js'
+import Footer from './components/footer.js'
 
 export default function Home({index})
 {
@@ -23,9 +24,12 @@ export default function Home({index})
         <Menu />
         <Top />
         {index.map((index) =>  (
-          <Works key={index.id} imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
+          <a key={index.id} href={`/works/${index.id}`}>
+          <Works imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
+          </a>
         ))}
       </div>
+      <Footer />
     </>
   );
 }

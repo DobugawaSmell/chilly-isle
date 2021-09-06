@@ -1,12 +1,9 @@
 import Style from '../../styles/works.module.css'
 import Image from 'next/image'
-import TestImage from '../img/topimage.png'
 
-let link = '###'
 
 export default function Works(props){
     return(
-        <a href={link}>
         <div className={Style.worksWrap}>
             <Image src={props.imageUrl} className={Style.imageWrap} width={520} height={350} />
             <div className={Style.textWrap}>
@@ -15,6 +12,5 @@ export default function Works(props){
                 <div className={Style.arrowWrap}><div className={Style.arrow}>→</div></div>
             </div>
         </div>
-        </a>
     );
 }
