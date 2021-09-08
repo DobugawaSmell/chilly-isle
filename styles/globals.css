@@ -9,9 +9,8 @@ a {
 h2 {
     width: auto;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 40px;
-    margin-left: 16.5vw;
     color: #0004FF;
 }
 
@@ -19,13 +18,28 @@ li {
     color: #00000000;
 }
 
+button {
+    border-style: none;
+    background-color: #FFFFFF00;
+}
+
+button:hover {
+    background-color: #FFFFFF55;
+    transition: 1000;
+}
+
+button:focus {
+    outline: none;
+}
+
 @media screen and (max-width: 600px){
     h2 {
-        width: 80%;
+        width: 100%;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 200;
+        font-weight: 100;
         font-size: 40px;
         margin: 0px auto 60px auto;
         color: #0004FF;
+        transform: scale(1,1.1);
     }
 }

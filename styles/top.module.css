@@ -6,7 +6,6 @@
 }
 
 .tobirae {
-    margin-left: 16.5vw;
     width: 55%;
     height: auto;
     font-family: 'Montserrat' ,sans-serif;
@@ -14,9 +13,10 @@
     color: #0004FF;
 }
 
+
 @media screen and (max-width: 600px){
     .topWrap {
-        width: 80%;
+        width: 100%;
         height: auto;
         display: block;
         margin: 30px auto 20px auto;
@@ -25,7 +25,5 @@
     .tobirae {
         margin-left: 0px;
         margin-top: 20px;
-        width: 80vw;
-        height: auto;
     }
 }

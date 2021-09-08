@@ -1,9 +1,9 @@
 .menuWrap {
     position: fixed;
-    width: auto;
+    width: 135px;
     height: auto;
     bottom: 0px;
-    left: 26px;
+    left: 20px;
     transform-origin: center top;
     background-color: #DAE4E7;
     text-align: center;
@@ -11,10 +11,10 @@
     z-index: 2;
 }
 
-.menuWrap a {
+.window {
     font-weight: 600;
-    color: #DAE4E7;
     padding-top: 40px;
+    color: #DAE4E7;
     text-shadow:  1px  0 0 #0004FF,
     0  1px 0 #0004FF,
     -1px 0 0 #0004FF,
@@ -25,7 +25,16 @@
 }
 
 .margin {
-    height: 4vh;
+    height: 2vh;
+}
+
+
+.text1 {
+    font-size: 18px;
+}
+
+.text2 {
+    font-size: 12px;
 }
 
 @media screen and (max-width: 600px){
@@ -56,4 +65,76 @@
     .margin {
         width: 100%;
     }
+
+    /* .whatWindow {
+        position: fixed;
+        width:80vw;
+        height: auto;
+        left: -100vw;
+        bottom: 7vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background-color: #0004FF;
+        color: #FFF;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        text-align: left;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .whoWindow {
+        position: fixed;
+        width:80vw;
+        height: auto;
+        left: -100vw;
+        bottom: 7vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background-color: #0004FF;
+        color: #FFF;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        text-align: left;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .howWindow {
+        position: fixed;
+        width:80vw;
+        height: auto;
+        left: -100vw;
+        bottom: 7vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background-color: #0004FF;
+        color: #FFF;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        text-align: left;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .whereWindow {
+        position: fixed;
+        width:80vw;
+        height: auto;
+        left: -100vw;
+        bottom: 7vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background-color: #0004FF;
+        color: #FFF;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        text-align: left;
+        z-index: 1;
+        opacity: 1;
+    } */
 }
