@@ -23,7 +23,7 @@ export default function WorkId({ index }) {
                 <div className={Style.contentWrap}>
                     <h1 className={Style.title}>{index.title}</h1>
                     <div className={Style.informationWrap}>
-                        <Image src={index.mainIMG.url} className={Style.mainImage} width={656} height={420} ></Image>
+                        <Image src={index.mainIMG.url} className={Style.mainImage} width={800} height={450} layout={"intrinsic"} ></Image>
                         <div className={Style.textWrap}>
                             <div className={Style.tool}>
                                 <div className={Style.designWrap}>
@@ -52,6 +52,12 @@ export default function WorkId({ index }) {
                                     }}
                                 />
                             </div>
+                        </div>
+                        <div className={Style.subImage}>
+                        <Image src={index.IMG1.url} className={Style.subImage} width={index.IMG1hori} height={index.IMG1vert} layout={"intrinsic"} ></Image>
+                        </div>
+                        <div className={Style.subImage}>
+                        <Image src={index.IMG2.url} className={Style.subImage} width={index.IMG2hori} height={index.IMG2vert} layout={"intrinsic"} ></Image>
                         </div>
                     </div>
                 </div>

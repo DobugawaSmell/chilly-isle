@@ -10,7 +10,7 @@ export default function Works(props){
                 <div className={Style.works_tag}>{props.tag}</div>
             </div>
             <div className={Style.imageWrap}>
-                <Image src={props.imageUrl} width={800} height={450} />
+                <Image src={props.imageUrl} width={800} height={450} layout={"intrinsic"}/>
             </div>
         </div>
     );
