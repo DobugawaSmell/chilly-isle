@@ -3,7 +3,7 @@
     width: auto;
     margin-right: 40px;
     margin-bottom: -1px;
-    padding: 15px 0px 10px 15px;
+    padding: 16px 0px 16px 0px;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 1px;
@@ -18,14 +18,18 @@
 }
 
 .textWrap {
-    width: 47vw;
+    width: 50%;
+    padding-right: 16px;
 }
 
 .works_h1 {
     font-family: 'Montserrat' ,sans-serif;
     font-size: 42px;
     font-weight: 100;
+    width: auto;
+    height: auto;
     color: #0004FF;
+    line-height: 1.1em;
 }
 
 .works_tag {
@@ -33,7 +37,52 @@
     font-size: 18px;
     font-weight: 300;
     color: #0004FF;
-    margin-top: 2px;
+    width: auto;
+    height: auto;
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1025px){
+    .worksWrap {
+        display: block;
+        width: 95%;
+        height: auto;
+        margin: 0px auto -1px 0px;
+        padding: 8px 0px 8px 0px;
+        
+    }
+
+    .imageWrap {
+        width: 100%;
+    }
+
+    .textWrap {
+        width: 100%;
+        margin: 0px 0% 32px 0%;
+    }
+
+    .works_h1 {
+        font-family: 'Montserrat' ,sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 100;
+        color: #0004FF;
+        line-height: 1.2em;
+    }
+    
+    .works_tag {
+        font-family: 'Montserrat' ,sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color: #0004FF;
+        width: auto;
+        height: auto;
+    }
+
+    .arrowWrap {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -51,7 +100,7 @@
 
     .textWrap {
         width: 100%;
-        margin: 3px 0% 85px 0%;
+        margin: 3px 0% 45px 0%;
     }
 
     .works_h1 {
@@ -60,6 +109,7 @@
         font-style: normal;
         font-weight: 100;
         color: #0004FF;
+        line-height: 1.2em;
     }
     
     .works_tag {
