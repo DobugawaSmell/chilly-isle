@@ -7,10 +7,12 @@ import Icon from '../img/icon.svg'
 export default function Title(){
     return(
         <div className={Style.titleWrap}>
-            <div className={Style.title}>
-                <img className={Style.pc} src={TitleImage.src}/>
-                <img className={Style.sp} src={TitleForMobile.src}/>
-            </div>
+            <a href={`/`}>
+                <div className={Style.title}>
+                    <img className={Style.pc} src={TitleImage.src}/>
+                    <img className={Style.sp} src={TitleForMobile.src}/>
+                </div>
+            </a>
         </div>
     )
 }
