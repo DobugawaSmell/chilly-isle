@@ -59,6 +59,7 @@ export default function WorkId({ index }) {
                         <div className={Style.subImage}>
                         <Image src={index.IMG2.url} className={Style.subImage} width={index.IMG2hori} height={index.IMG2vert} layout={"intrinsic"} ></Image>
                         </div>
+                        <a href={index.link}><div className={Style.link}><p>VISIT</p></div></a>
                     </div>
                 </div>
                 <Footer />
