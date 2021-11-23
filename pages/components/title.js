@@ -1,7 +1,7 @@
 import Style from '../../styles/title.module.css'
 
-import TitleImage from '../img/Title.png'
-import TitleForMobile from '../img/Title_mobile.png'
+import TitleImage from '../img/logo-b.svg'
+import TitleForMobile from '../img/logo-formob.svg'
 import Icon from '../img/icon.svg'
 
 export default function Title(){

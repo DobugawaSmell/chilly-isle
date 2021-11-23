@@ -7,15 +7,14 @@
 
 .title {
     align-self: center;
-    width: 10vw;
+    width: 135px;
 }
 
 .title img {
-    width:auto;
+    width: auto;
     height:auto;
-    max-width:100%;
-    max-height:100%;
-    object-fit:scale-down;
+    max-width: 78px;
+    object-fit:fill;
 }
 
     .pc { display: block !important;}

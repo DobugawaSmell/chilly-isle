@@ -29,7 +29,7 @@
     width: auto;
     height: auto;
     color: #0004FF;
-    line-height: 1.1em;
+    line-height: 106%;
 }
 
 .works_tag {
@@ -90,7 +90,7 @@
         display: block;
         width: 100%;
         height: auto;
-        margin: 0px auto -1px auto;
+        margin: 0px auto 40px auto;
         padding: 0px;
     }
 
@@ -109,7 +109,7 @@
         font-style: normal;
         font-weight: 100;
         color: #0004FF;
-        line-height: 1.2em;
+        line-height: 108%;
     }
     
     .works_tag {
