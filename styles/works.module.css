@@ -90,17 +90,18 @@
         display: block;
         width: 100%;
         height: auto;
-        margin: 0px auto 40px auto;
+        margin: 0px auto -1px auto;
         padding: 0px;
     }
 
     .imageWrap {
         width: 100%;
+        margin: 0px 0% 16px 0%;
     }
 
     .textWrap {
         width: 100%;
-        margin: 3px 0% 45px 0%;
+        margin: 16px 0% 45px 0%;
     }
 
     .works_h1 {
