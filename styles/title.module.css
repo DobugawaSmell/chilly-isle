@@ -20,7 +20,7 @@
     .pc { display: block !important;}
     .sp { display: none !important;}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 820px) {
     .titleWrap {
         position: relative;
         top: 0px;

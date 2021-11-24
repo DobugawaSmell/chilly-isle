@@ -76,7 +76,7 @@ export default function Menu() {
                 <div className={Style.margin}></div>
                 <ClickAwayListener onClickAway={whatClickAway}>
                     <div>
-                        <button className={Style.window} onClick={whatClick}>what?</button>
+                        <button className={Style.buttons} onClick={whatClick}>what?</button>
                         {whatOpen ? (
                             <Portal>
                                 <div className={classes.window}>
@@ -89,7 +89,7 @@ export default function Menu() {
                 <div className={Style.margin}></div>
                 <ClickAwayListener onClickAway={whoClickAway}>
                     <div>
-                        <button className={Style.window} onClick={whoClick}>who?</button>
+                        <button className={Style.buttons} onClick={whoClick}>who?</button>
                         {whoOpen ? (
                             <Portal>
                                 <div className={classes.window}>
@@ -103,14 +103,13 @@ export default function Menu() {
                 <div className={Style.margin}></div>
                 <ClickAwayListener onClickAway={howClickAway}>
                     <div>
-                        <button className={Style.window} onClick={howClick}>how?</button>
+                        <button className={Style.buttons} onClick={howClick}>how?</button>
                         {howOpen ? (
                             <Portal>
                                 <div className={classes.window}>
                                     <p className={Style.text1}>Webデザイナー/フロントエンドエンジニアです</p>
                                     <p className={Style.text2}>2020年　千葉大学大学院融合理工学府　卒業</p>
                                     <p className={Style.text2}>　　　　株式会社PIVOT入社</p>
-                                    <p className={Style.text2}>　　　　ボードゲーム制作サークル青色電気発足</p>
                                 </div>
                             </Portal>
                         ) : null}
@@ -119,11 +118,12 @@ export default function Menu() {
                 <div className={Style.margin}></div>
                 <ClickAwayListener onClickAway={whereClickAway}>
                     <div>
-                        <button className={Style.window} onClick={whereClick}>where?</button>
+                        <button className={Style.buttons} onClick={whereClick}>where?</button>
                         {whereOpen ? (
                             <Portal>
                                 <div className={classes.window}>
-                                    <p className={Style.text1}>mail: amisosima.school@gmail.com</p>
+                                    <p className={Style.text1}>お仕事のご依頼など、お気軽にご連絡ください</p>
+                                    <a href="mailto:amisosima.school@gmail.com"><p className={Style.text2}>[メールを送る]</p></a>
                                 </div>
                             </Portal>
                         ) : null}
