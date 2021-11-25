@@ -27,7 +27,7 @@ export default function WorkId({ index }) {
                         <div className={Style.textWrap}>
                             <div className={Style.tool}>
                                 <div className={Style.designWrap}>
-                                    <p>Design:　</p>
+                                    <div className={Style.designText}><p>Design:　</p></div>
                                     <div
                                         dangerouslySetInnerHTML={{
                                         __html: `${index.design}`,
@@ -35,7 +35,7 @@ export default function WorkId({ index }) {
                                     />
                                 </div>
                                 <div className={Style.codingWrap}>
-                                    <p>Coding:　</p>
+                                    <div className={Style.codingText}><p>Coding:　</p></div>
                                     <div
                                         dangerouslySetInnerHTML={{
                                         __html: `${index.coding}`,
