@@ -1,23 +1,15 @@
-.imageWrap {
-    width: auto;
-    margin-top: 278px;
-    margin-left: 16.5vw;
-    margin-right: 40px;
-    margin-bottom: 62px;
-    padding: 0px 20% 0px 20%;
-}
-
 .bar {
-    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
     height: 70px;
-    margin-top: 88px;
+    margin-top: 80px;
     background-color: #0004FF;
 }
 
 .titleWrap {
     width: auto;
-    padding-top: 18px;
-    padding-left: 90%;
+    margin: 18px 20px 0 auto;
 }
 
 @media screen and (max-width: 600px) {
