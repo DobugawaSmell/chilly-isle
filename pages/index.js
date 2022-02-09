@@ -31,9 +31,11 @@ export default function Home({index})
             <Works imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
           </a>
         ))}
-        <div className={Style.privateLink}>
-          <Link href="/private"><a>ON THE JOB WORK</a></Link>
-        </div>
+        <Link href="/private"><a>
+          <div className={Style.privateLink}>
+            <p>ON THE JOB WORK</p>
+          </div>
+          </a></Link>
       </div>
       <Footer />
     </>
