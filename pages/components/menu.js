@@ -94,7 +94,7 @@ export default function Menu() {
                             <Portal>
                                 <div className={classes.window}>
                                     <p className={Style.text1}>コードでデザインするデザイナーです</p>
-                                    <p className={Style.text2}>Web系の言語に加え、Unityでのコンテンツ実装にも経験があります。（C#)<br></br><br></br>理論的なデザインから発進して、情緒的なデザインができるように勉強中です</p>
+                                    <p className={Style.text2}>Web系の言語に加え、Unityでのコンテンツ実装にも経験があります。（C#)理論的なデザインから発進して、情緒的なデザインができるように勉強中です</p>
                                 </div>
                             </Portal>
                         ) : null}

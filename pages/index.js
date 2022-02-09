@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { client } from '../libs/client'
+import Link from 'next/dist/client/link'
 
 import Style from '../styles/Home.module.css'
 import Menu from './components/menu.js'
@@ -8,6 +9,7 @@ import Top from './components/top.js'
 import Works from './components/work.js'
 import Footer from './components/footer.js'
 import Favicon from './img/favicon.ico'
+
 
 export default function Home({index})
 {
@@ -29,6 +31,9 @@ export default function Home({index})
             <Works imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
           </a>
         ))}
+        <div className={Style.privateLink}>
+          <Link href="/private"><a>ON THE JOB WORK</a></Link>
+        </div>
       </div>
       <Footer />
     </>

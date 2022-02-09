@@ -1,0 +1,46 @@
+
+
+.title {
+    position: relative;
+  }
+  
+.bodyWrap {
+    margin-left: 180px;
+    min-height: 100%;
+}
+
+.inputWrap{
+    display: flex;
+}
+
+.inputForm{
+    border-color: #0004FF;
+    border-width: 1px;
+    width: 232px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.loginBtn{
+    width: 48px;
+    height:auto;
+    background-color: #0004FF;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.footer
+{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+  
+  @media screen and (max-width: 820px) {
+    .bodyWrap {
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+  }

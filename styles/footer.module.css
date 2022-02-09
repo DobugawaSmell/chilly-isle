@@ -13,13 +13,13 @@
 }
 
 @media screen and (max-width: 600px) {
-    .imageWrap {
-        width: 80vw;
-        margin-top: 278px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 62px;
-        padding: 0px 0% 0px 0%;
+    .bar {
+        display: flex;
+        flex-direction: row-reverse;
+        width: auto;
+        height: 70px;
+        margin-top: 80px;
+        background-color: #0004FF;
     }
     
     .bar {
@@ -31,8 +31,8 @@
     }
 
     .titleWrap {
-        width: auto;
-        padding-top: 18px;
-        padding-left: 40%;
+        width: 68%;
+        padding-top: 0px;
+        padding-left: 0%;
     }
 }

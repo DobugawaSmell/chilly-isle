@@ -16,16 +16,18 @@
 }
 
 .year {
+    margin-top: 0px;
     font-family: 'Montserrat' ,sans-serif;
     font-weight: 500;
     font-size: 14px;
 }
 
 .catch {
-    margin: 5px auto 0px auto;
-    font-family: 'Noto Sans JP', sans-serif;
+    margin: 24px auto 0px auto;
+    font-family: 'Noto Sans JP', serif;
     font-weight: 100;
     font-size: 30px;
+    line-height: 1.45em;
 }
 
 .textWrap {
@@ -43,10 +45,28 @@
 
 .designWrap {
     display: flex;
+    margin-top: 0px;
+}
+
+.designText {
+    margin-top: 0px;
+}
+
+.designToolText {
+    line-height: 1.65em;
 }
 
 .codingWrap{
     display: flex;
+    margin-top: 8px;
+}
+
+.codingText {
+    margin-top: 0px;
+}
+
+.codingToolText {
+    line-height: 1.65em;
 }
 
 .text {
@@ -54,6 +74,13 @@
     font-family: 'Noto Serif JP', serif;
     font-weight: 100;
     font-size: 16px;
+}
+
+.detail{
+    font-family: 'Noto Sans JP', serif;
+    font-weight: 100;
+    margin-top: 16px;
+    line-height: 1.6em;
 }
 
 .subImage {
@@ -66,11 +93,13 @@
 .link {
     display: flex;
     background-color: #0004FF;
+    border-radius: 20px;
     color: #fff;
     font-family: 'Montserrat' ,sans-serif;
     font-weight: 400;
     width: auto;
-    margin: 100px 30% 0px 30%;
+    height: 40px;
+    margin: 100px 10% 0px 10%;
     justify-content: center;
     align-items: center;
 }
@@ -106,16 +135,16 @@
     .informationWrap {
         width: 80vw;
         max-width: none;
-        margin: 100px auto 0px auto;
+        margin: 32px auto 0px auto;
     }
 
     .designWrap {
-        display: block;
-        margin-bottom: 16px;
+        display: flex;
+        margin-bottom: 8px;
     }
     
     .codingWrap {
-        display: block;
+        display: flex;
     }
     
     .textWrap {
@@ -125,15 +154,16 @@
     }
 
     .catch {
-        margin: 5px auto 0px auto;
+        margin: 16px auto 0px auto;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 200;
         font-size: 24px;
+        line-height: 1.45em;
     }
 
     .text {
         width: auto;
-        margin-top: 60px;
+        margin-top: 40px;
         margin-right: 0px;
         font-family: 'Noto Serif JP', serif;
         font-weight: 200;
@@ -148,6 +178,13 @@
         font-size: 12px;
         display: block;
     } 
+
+    .detail{
+        font-family: 'Noto Sans JP', serif;
+        font-weight: 100;
+        margin-top: 16px;
+        line-height: 1.6em;
+    }
 
     .designText p{
         margin-bottom: -8px;
