@@ -37,11 +37,13 @@ const Private = ({salary}) => {
                 <Title />
                 <Menu />
                 <Top />
-                {salary.map((salary) =>  (
-                <a key={salary.id} href={`/onJobWorks/${salary.id}`}>
-                    <Works imageUrl={salary.thumbnail.url} title={salary.title} tag={salary.tag}/>
-                </a>
-                ))}
+                <div className={Style.worksWrap}>
+                    {salary.map((salary) =>  (
+                    <a key={salary.id} href={`/onJobWorks/${salary.id}`}>
+                        <Works imageUrl={salary.thumbnail.url} title={salary.title} tag={salary.tag}/>
+                    </a>
+                    ))}
+                </div>
             </div>
             <Footer />
         </Auth>

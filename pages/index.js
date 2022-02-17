@@ -26,16 +26,18 @@ export default function Home({index})
         <Title />
         <Menu />
         <Top />
-        {index.map((index) =>  (
-          <a key={index.id} href={`/works/${index.id}`}>
-            <Works imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
-          </a>
-        ))}
-        <Link href="/private"><a>
-          <div className={Style.privateLink}>
-            <p>ON THE JOB WORK</p>
-          </div>
-          </a></Link>
+        <div className={Style.worksWrap}>
+          {index.map((index) =>  (
+            <a key={index.id} href={`/works/${index.id}`}>
+              <Works imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
+            </a>
+          ))}
+          <Link href="/private"><a>
+            <div className={Style.privateLink}>
+              <p>ON THE JOB WORK</p>
+            </div>
+            </a></Link>
+        </div>
       </div>
       <Footer />
     </>

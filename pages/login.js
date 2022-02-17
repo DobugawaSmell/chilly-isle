@@ -18,7 +18,7 @@ const Login = () => {
     const login = () => {
         var pass = document.forms.id_form1.pass.value;
 
-        if(pass == "oshima")
+        if(pass == "4kd12pvu")
         {
         Cookies.set("_able_to_enter", "true");
         router.replace("/private");
@@ -42,7 +42,7 @@ const Login = () => {
                     <form action="" method='post' onSubmit={login} name="form1" id="id_form1">
                         <input type="password" className={Style.inputForm} id ="pass" name="password"　placeholder="password" onKeyDown={login}></input>
                     </form>
-                    <button  onClick={login}><div className={Style.loginBtn}>→</div></button>
+                    <button  onClick={login}><div className={Style.loginBtn}>ENTER</div></button>
                 </div>
             </div>
             <div className={Style.footer}>

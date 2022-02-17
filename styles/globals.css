@@ -25,6 +25,7 @@ li {
 button {
     border-style: none;
     background-color: #FFFFFF00;
+    padding: 0px;
 }
 
 button:hover {

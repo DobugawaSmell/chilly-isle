@@ -22,12 +22,15 @@
 }
 
 .loginBtn{
-    width: 48px;
-    height:auto;
+    width: auto;
+    height: auto;
     background-color: #0004FF;
-    border-radius: 30px;
+    border-radius: 8px;
     color: #fff;
     margin-left: 20px;
+    padding: 9px 12px;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 16px;
 }
 
 .footer
