@@ -13,6 +13,7 @@ import Favicon from './img/favicon.ico'
 
 export default function Home({index})
 {
+  
   return (
     <>
       <Head>
