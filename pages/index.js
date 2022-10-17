@@ -25,7 +25,7 @@ export default function Home({index})
       <div className={Style.bodyWrap}>
         <Title />
         <Menu />
-        <Top />
+        <Top h2={"Works"}/>
         <div className={Style.worksWrap}>
           {index.map((index) =>  (
             <a key={index.id} href={`/works/${index.id}`}>

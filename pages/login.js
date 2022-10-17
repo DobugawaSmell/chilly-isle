@@ -11,14 +11,13 @@ import Footer from './components/footer.js'
 import Favicon from './img/favicon.ico'
 
 const Login = () => {
-
     const router = useRouter();
 
     //ログイン処理（CookieにsignedIn=trueとする）
     const login = () => {
         var pass = document.forms.id_form1.pass.value;
 
-        if(pass == "4kd12pvu")
+        if(pass == process.env.NEXT_PUBLIC_PASSWORD)
         {
         Cookies.set("_able_to_enter", "true");
         router.replace("/private");

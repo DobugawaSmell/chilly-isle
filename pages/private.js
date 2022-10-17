@@ -36,7 +36,7 @@ const Private = ({salary}) => {
             <div className={Style.bodyWrap}>
                 <Title />
                 <Menu />
-                <Top />
+                <Top h2={"On the job work"}/>
                 <div className={Style.worksWrap}>
                     {salary.map((salary) =>  (
                     <a key={salary.id} href={`/onJobWorks/${salary.id}`}>

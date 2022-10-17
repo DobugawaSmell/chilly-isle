@@ -76,57 +76,7 @@ export default function Menu() {
                 <div className={Style.margin}></div>
                 <ClickAwayListener onClickAway={whatClickAway}>
                     <div>
-                        <button className={Style.buttons} onClick={whatClick}>what?</button>
-                        {whatOpen ? (
-                            <Portal>
-                                <div className={classes.window}>
-                                    <p className={Style.text1}>大島涼佑のポートフォリオサイトです</p>
-                                </div>
-                            </Portal>
-                        ) : null}
-                    </div>
-                </ClickAwayListener>
-                <div className={Style.margin}></div>
-                <ClickAwayListener onClickAway={whoClickAway}>
-                    <div>
-                        <button className={Style.buttons} onClick={whoClick}>who?</button>
-                        {whoOpen ? (
-                            <Portal>
-                                <div className={classes.window}>
-                                    <p className={Style.text1}>コードでデザインするデザイナーです</p>
-                                    <p className={Style.text2}>Web系の言語に加え、Unityでのコンテンツ実装にも経験があります。（C#)理論的なデザインから発進して、情緒的なデザインができるように勉強中です</p>
-                                </div>
-                            </Portal>
-                        ) : null}
-                    </div>
-                </ClickAwayListener>
-                <div className={Style.margin}></div>
-                <ClickAwayListener onClickAway={howClickAway}>
-                    <div>
-                        <button className={Style.buttons} onClick={howClick}>how?</button>
-                        {howOpen ? (
-                            <Portal>
-                                <div className={classes.window}>
-                                    <p className={Style.text1}>Webデザイナー/フロントエンドエンジニアです</p>
-                                    <p className={Style.text2}>2020年　千葉大学大学院融合理工学府　卒業</p>
-                                    <p className={Style.text2}>　　　　株式会社PIVOT入社</p>
-                                </div>
-                            </Portal>
-                        ) : null}
-                    </div>
-                </ClickAwayListener>
-                <div className={Style.margin}></div>
-                <ClickAwayListener onClickAway={whereClickAway}>
-                    <div>
-                        <button className={Style.buttons} onClick={whereClick}>where?</button>
-                        {whereOpen ? (
-                            <Portal>
-                                <div className={classes.window}>
-                                    <p className={Style.text1}>お仕事のご依頼など、お気軽にご連絡ください</p>
-                                    <a href="mailto:amisosima.school@gmail.com"><p className={Style.text2}>[メールを送る]</p></a>
-                                </div>
-                            </Portal>
-                        ) : null}
+                        <a href='/profile'><button className={Style.buttons} onClick={whatClick}>Profile</button></a>
                     </div>
                 </ClickAwayListener>
                 <div className={Style.margin}></div>

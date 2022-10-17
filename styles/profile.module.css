@@ -1,0 +1,92 @@
+.title {
+    position: relative;
+  }
+  
+  .bodyWrap {
+    margin-left: 180px;
+  }
+  
+  .privateLink{
+    display: flex;
+    background-color: #0004FF;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 400;
+    width: auto;
+    height: 40px;
+    margin: 100px 10% 0px 10%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .privateLink a{
+    color: #fff;
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 400;
+  }
+  
+  .worksWrap {
+    min-height: 80vh;
+  }
+
+  .name {
+    color: #0004FF;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .rabel {
+    color: #0004FF;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .intro_wrap {
+    color: #0004FF;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 800px;
+  }
+
+  .timeline_wrap {
+    margin-top: 24px;
+  }
+
+  .text_medium {
+    color: #0004FF;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .profileWrap {
+    display: flex;
+    margin-top: 32px;
+  }
+
+  .profileWrap_text {
+    width: 60%;
+  }
+
+  .portrate {
+    width: 120px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .intro_wrap {
+        width: 100%;
+      }
+
+    .bodyWrap {
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+
+    .timeline_wrap {
+        margin-top: 32px;
+      }
+  }
