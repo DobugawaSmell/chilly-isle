@@ -12,20 +12,9 @@ import Footer from './components/footer.js'
 import Favicon from './img/favicon.ico'
 
 
-import Auth from "./api/auth"
-
 const Private = ({salary}) => {
-
-    const router = useRouter();
-
-    //ログアウト処理
-    const logout = () => {
-        Cookies.remove("signedIn");
-        router.replace("/login");
-    }
-
     return (
-        <Auth>
+        <>
             <Head>
                 <title>chilly isle</title>
                 <link rel="icon" href={Favicon} id="favicon" />
@@ -46,7 +35,7 @@ const Private = ({salary}) => {
                 </div>
             </div>
             <Footer />
-        </Auth>
+        </>
     );
 }
 

@@ -32,7 +32,7 @@ export default function Home({index})
               <Works imageUrl={index.thumbnail.url} title={index.title} tag={index.tag}/>
             </a>
           ))}
-          <Link href="/private"><a>
+          <Link href="/gate"><a>
             <div className={Style.privateLink}>
               <p>ON THE JOB WORK</p>
             </div>

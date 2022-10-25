@@ -17,17 +17,21 @@ const Auth = ({ children }) => {
     const router = useRouter();
     const isReady = router.isReady;
 
+
     useEffect(() => {
         if(isReady){
             //Cookieのチェック（これをいろいろ認証タイプにより変更）
             const signedIn = Cookies.get("_able_to_enter");
             //signedInがtrueじゃなければ/loginへ
             if (signedIn !== "true") router.replace("/login");
-            }
+            if (signedIn == "true") router.replace("/private");
+            };
         },[router]);
     
     //何もなければ次へ（そのまま処理）
+    
     return children;
+    
 }
 
 export default Auth;
