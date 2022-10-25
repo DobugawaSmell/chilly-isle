@@ -36,7 +36,7 @@ const Gate = () =>
       <div className={Style.bodyWrap}>
         <Title />
         <Menu />
-        <Top h2={"Profile"}/>
+        <Top h2={"Gate"}/>
         <div className={Style.worksWrap}>
             <p className={Style.name}>WaitPlease...</p>
         </div>
